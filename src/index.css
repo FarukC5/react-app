@@ -1,0 +1,35 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  background-color: white;
+  padding-top: 80px;
+}
+
+header,
+footer {
+  position: fixed;
+  text-align: center;
+  width: 99%;
+  padding-right: 2px;
+  background-color: lightgray;
+  color: black;
+  z-index: 999; /* velika vrijednost da sadrzaj body-ja ne prelazi preko headera i footera*/
+}
+
+header {
+  top: 0;
+  left: 2px;
+  height: 60px;
+  padding: 6px;
+  border-bottom: solid black 1px;
+}
+
+footer {
+  bottom: 0;
+  left: 2px;
+  height: 18px;
+  font-size: 10px;
+  padding-top: 4px;
+  border-top: solid black 1px;
+  width: 99.5%;
+}
